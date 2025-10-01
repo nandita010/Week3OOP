@@ -1,3 +1,4 @@
+//Nandita
 package org.example;
 import java.util.Scanner;
 import java.sql.SQLOutput;
@@ -10,13 +11,13 @@ public class main {
 
         Calc calc = new Calc();
 
-        System.out.println("Simple Calculator-Add Two Numbers");
+        System.out.println("Simple Calculator-Subtracting Two Numbers");
         System.out.println("Enter first number: ");
         int a = sc.nextInt();
         System.out.println("Enter second number: ");
         int b = sc.nextInt();
 
-        int result= calc.add(a, b);
+        int result= calc.sub(a, b);
         System.out.println("Result:" +result);
 
         sc.close();
