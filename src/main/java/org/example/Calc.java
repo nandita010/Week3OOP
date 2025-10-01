@@ -1,9 +1,10 @@
 package org.example;
 
 public class Calc {
-
-    public int add(int a,int b){
-      return a+b;
-
+//Subtracting the two values
+    public int sub(int a,int b){
+        return a-b;
     }
+
+
 }
