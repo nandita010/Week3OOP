@@ -11,13 +11,13 @@ public class main {
 
         Calc calc = new Calc();
 
-        System.out.println("Simple Calculator-Using Modulo with Two Numbers");
+        System.out.println("Simple Calculator-Finding Power with Two Numbers");
         System.out.println("Enter first number: ");
         int a = sc.nextInt();
         System.out.println("Enter second number: ");
         int b = sc.nextInt();
 
-        int result= calc.mod(a, b);
+        int result= calc.pow(a, b);
         System.out.println("Result:" +result);
 
         sc.close();

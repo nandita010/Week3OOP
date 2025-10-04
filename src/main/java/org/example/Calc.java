@@ -1,8 +1,8 @@
 package org.example;
 
 public class Calc {
-//Multiplying the two values
-    public int mod(int a,int b){
+//Power of the two values
+    public int pow(int a,int b){
         return a % b;
     }
 
